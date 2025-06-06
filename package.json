@@ -1,0 +1,23 @@
+{
+  "name": "astroclick",
+  "version": "0.0.1",
+  "description": "Auto-clicker by astroxii",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"TODO\" && exit 1"
+  },
+  "keywords": [
+    "auto",
+    "clicker",
+    "astroxii"
+  ],
+  "author": "astroxii",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^29.1.6",
+    "electron-builder": "^26.0.12",
+    "python-shell": "^5.0.0"
+  }
+}

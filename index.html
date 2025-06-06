@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Astroclick</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Astroclick</h1>
+
+        <div class="window-button-holder">
+            <button id="min-button" class="min-button">&mdash;</button>
+            <button id="close-button" class="close-button"><span class="material-symbols-outlined">close</span></button>
+        </div>
+    </header>
+    <main>
+        <div class="clicker-manage">
+            <button class="toggle-button" id="toggle-btn" title="Run auto-clicker"><img src="./resources/images/playIcon.png" alt="Play icon."/></button>
+            <p class="clicker-status">STATUS: <span id="clicker-status">Inactive</span></p>
+            <p class="command-hint">When active, press [ <span id="controls:toggle_btn">CTRL</span> ] to toggle.</p>
+        </div>
+    </main>
+    <script src="./renderer.js"></script>
+</body>
+</html>
